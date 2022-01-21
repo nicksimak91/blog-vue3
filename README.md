@@ -1,19 +1,18 @@
-# project
+# Блог на Vue 3
 
-## Project setup
-```
-npm install
-```
+Реализовано:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Вывод постов тремя способами:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+• Стандартный - полностью внутри компонента <br>
+• Через хранилище Vuex <br>
+• Через Composition API <br>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Вывод по странично, вывод с бесконечной прокруткой.<br>
+Поиск и сортировка по заголовку и телу поста.<br>
+Добавление, удаление, переход на страницу поста.<br>
+
+Получение постов с Placeholder API, через библиотеку Axios.
+
+# Размещено на gh-pages
+[Посмотреть](https://nicksimak91.github.io/blog-vue3/)
